@@ -1,4 +1,4 @@
-package methods;
+package methods.copy;
 
 import java.applet.AudioClip;
 import java.io.File;
@@ -18,10 +18,10 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
-for(int i=1;true;i++) {
-System.out.println(i);
+
+
 	}
-	}
+
 	static void tryCode(int guess) {
 		System.out.println("trying " + guess);
 
