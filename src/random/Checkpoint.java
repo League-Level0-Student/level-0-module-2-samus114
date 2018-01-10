@@ -1,5 +1,7 @@
 package random;
 
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 public class Checkpoint {
@@ -21,5 +23,16 @@ int j = Integer.parseInt(Amnt);
 if(j<2) {
 JOptionPane.showMessageDialog(null, "your lucky to have lots of friends");
 }
+//-----------------------------------------------------
+Random rand = new Random();
+int generator1 = rand.nextInt(1000);
+int generator2 = rand.nextInt(900);
+int p = 64;
+int f = 99;
+JOptionPane.showMessageDialog(null, ""+f+" + "+p+"= 163");
+JOptionPane.showMessageDialog(null, ""+f+" - "+p+"= 35");
+//-----------------------------------------------------
+Random rand2 = new
+
 }
 }
